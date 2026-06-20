@@ -1,17 +1,15 @@
 # Virtual Environment
 .venv/
 
-# Data files
-data/*.csv
-data/*.xlsx
-data/*.db
+# Data
+data/raw/*.csv
 
-# Python cache
+# Database
+*.db
+
+# Python
 __pycache__/
 *.pyc
-
-# Jupyter
-.ipynb_checkpoints/
 
 # VS Code
 .vscode/
