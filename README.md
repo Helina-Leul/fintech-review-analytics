@@ -1,10 +1,12 @@
 # Fintech Review Analytics
 
-## Overview
+## Project Overview
 
 Customer Experience Analytics for Ethiopian Fintech Applications.
 
-This project analyzes Google Play Store reviews from:
+This project analyzes Google Play Store reviews from Ethiopian banking applications to understand customer satisfaction, complaints, and feature requests.
+
+## Banks Analyzed
 
 - Commercial Bank of Ethiopia (CBE)
 - Bank of Abyssinia (BOA)
@@ -12,12 +14,21 @@ This project analyzes Google Play Store reviews from:
 
 ## Objectives
 
-- Collect customer reviews from Google Play Store
-- Clean and preprocess review data
+The project will:
+
+- Scrape Google Play Store reviews
+- Clean and preprocess customer feedback
 - Perform sentiment analysis
 - Extract customer experience themes
 - Store processed data in PostgreSQL
 - Generate business recommendations
+
+## Project Tasks
+
+1. Data Collection and Preprocessing
+2. Sentiment and Thematic Analysis
+3. PostgreSQL Database Engineering
+4. Insights and Recommendations
 
 ## Technologies
 
@@ -25,8 +36,9 @@ This project analyzes Google Play Store reviews from:
 - Pandas
 - Google Play Scraper
 - Transformers
-- PostgreSQL
 - Scikit-learn
+- PostgreSQL
 - Matplotlib
+- Seaborn
 
 ## Project Structure
